@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    padding: 0 20px;
+}
+
+.modo {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+a:visited {
+    color: #000;
+}
+
+.modos {
+    transform: scale(1.7);
+}
+
+header {
+    background: #fff;
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.div1 {
+    padding: 20px 0;
+}
+
+img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.div3 {
+    padding: 20px 0;
+}
+
+.caja {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    margin: 15px 0;
+    background: rgb(255, 190, 164);
+    cursor: pointer;
+}
+
+.caja:first-child {
+    background: rgb(162, 171, 255);
+}
+
+a {
+    text-decoration: none;
+}
+
+.enlace1:first-child {
+    color: rgb(34, 67, 186);
+}
+
+.enlace2 {
+    color: rgb(193, 96, 57);
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.redes {
+    margin: 0 20px;
+    transform: scale(1.5);
+    cursor: pointer;
+    color: rgb(193, 96, 57);
+    
+}
+
+@keyframes animacion {
+    0% {
+        rotate: -20deg;
+    }
+    50% {
+        rotate: 20deg;
+    }
+    100% {
+        rotate: -20deg;
+    }
+}
+
+.redes:hover {
+    transition: 1s;
+    animation-name: animacion;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
